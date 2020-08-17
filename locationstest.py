@@ -1,3 +1,8 @@
+
+
+
+
+
 import jsonschema
 
 from schemas.location_schema import *
@@ -50,6 +55,3 @@ def delete_location(state):
 
 
 
-
-
-    
