@@ -26,28 +26,4 @@ class User(db.Model):
         db.session.add(new_user)
         db.session.commit()
 
-    @staticmethod
-    def update_email(_username, _email):
-        user_to_update = User.query.filter_by(username=_username).first()
-        user_to_update.email = _email
-        db.session.commit()
-
-    @staticmethod
-    def delete_user(_username):
-        is_successful = User.query.filter_by(username=_username).delete()
-        db.session.commit()
-        return bool(is_successful)
-
-    @staticmethod
-    def add_user_td():
-        User.add_user("darth", "darth.vader@gmail.com")
-        User.add_user("superman", "super.man@gmail.com")
-        User.add_user("thor", "thor@gmail.com")
-
-    def __repr__(self):
-        user_object = {
-            'username': self.username,
-            'email': self.email
-        }
-        return json.dumps(user_object)
-        
+   
