@@ -17,7 +17,7 @@ johnny first repo
 
 hello world
 
-```
+``
 # 
 #       ___           ___           ___       ___       ___                    ___           ___           ___           ___       ___     
 #      /\__\         /\  \         /\__\     /\__\     /\  \                  /\__\         /\  \         /\  \         /\__\     /\  \    
@@ -39,13 +39,7 @@ hello world
 
 
 
-
-
-
 computer
-
-
-
 
 
 
@@ -88,15 +82,7 @@ computer
 
 
 
-
-
-
 playstation 
-
-
-
-
-
 
 
 
@@ -121,7 +107,7 @@ playstation
 #   \________/                                \_________/
 #                     PS2 CONTROLLER
 # 
-```
+``
 
 
 
