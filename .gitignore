@@ -131,3 +131,4 @@ dmypy.json
 *.java
 
 secrets.txt
+secret.txt
