@@ -1,8 +1,3 @@
-
-
-
-
-
 import jsonschema
 
 from schemas.location_schema import *
@@ -52,6 +47,3 @@ def delete_location(state):
         response = Response(json.dumps(invalid_delete_error_msg_locations), 404, mimetype="application/json")
     return response
     
-
-
-
